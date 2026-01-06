@@ -1,6 +1,6 @@
-# DevSecOps Syllabus — Secure Platform Engineering
+# DevSecOps Syllabus
 
-This repository documents a **deliberately designed DevSecOps syllabus** created to transition from senior infrastructure operations into **secure platform and DevSecOps engineering**.
+This repository documents a **deliberately designed DevSecOps syllabus** created to transition from infrastructure (Ops) into **secure platform and DevSecOps engineering**.
 
 It reflects a **long-term, structured progression** rather than ad-hoc learning:  
 covering delivery pipelines, infrastructure, cloud, containers, identity, monitoring, compliance, and incident response — with **security treated as a system property**, not a final gate.
