@@ -28,7 +28,7 @@ structured, iterative, and grounded in real constraints.
 
 This is **not a lightweight overview**.
 
-The syllabus represents a **multi-month, disciplined progression** that includes:
+The syllabus represents a **long-term, disciplined progression** that includes:
 
 - Defined modules with clear responsibility domains  
 - Hands-on implementation rather than passive study  
@@ -97,12 +97,12 @@ Hands-on work appears in two forms:
 - **Standalone end-to-end projects** under `projects/`  
 
 Examples of execution include:
-- CI/CD pipelines with integrated SAST, DAST, and dependency scanning  
-- Infrastructure as Code with secure state and access handling  
-- Hardened containerised workloads and Kubernetes security controls  
-- Secrets and identity management using modern tooling and patterns  
-- Monitoring, alerting, and detection pipelines designed for signal, not noise  
-- Incident response playbooks and post-incident analysis  
+- **CI/CD pipelines with integrated SAST/DAST** to surface risk early without blocking delivery
+- **IaC with secure state handling** to reduce drift and privilege sprawl
+- **Hardened containerised workloads and Kubernetes security controls**
+- **Secrets and identity management** using modern tooling and patterns, minimising long-lived credentials and enforcing least-privilege access across systems
+- **Monitoring, alerting, and detection pipelines** designed for signal over noise, prioritising actionable alerts and reducing operator fatigue during incidents
+- **Incident response playbooks and post-incident analysis**, treating failures as expected events and feeding lessons back into system design and automation
 
 Perfection is not the goal — **clarity of design decisions is**.
 
